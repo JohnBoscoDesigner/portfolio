@@ -62,6 +62,10 @@ a:hover {
   color: #1d1934;
 }
 
+.color-w {
+  color: #fff !important;
+}
+
 .box-shadow,
 .paralax-mf,
 .service-box,
@@ -72,7 +76,7 @@ a:hover {
 
 .box-shadow-a,
 .button:hover {
-  box-shadow: 0 0 0 4px rgba(235, 0, 69, 0.25);
+  box-shadow: 0 0 0 4px rgba(253,73,92, 0.25);
 }
 
 .display-5 {
@@ -165,6 +169,13 @@ a:hover {
   text-transform: uppercase;
 }
 
+.title-a2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+
 .subtitle-a {
   color: #1d1934;
 }
@@ -235,7 +246,7 @@ a:hover {
 .socials .ico-circle:hover {
   background-color: #eb0045;
   color: #fff;
-  box-shadow: 0 0 0 3px rgba(235, 0, 69, 0.25);
+  box-shadow: 0 0 0 3px rgba(253,73,92, 0.25);
   transition: all 500ms ease;
 }
 
@@ -291,19 +302,19 @@ a:hover {
   width: 18px;
   height: 7px;
   margin: 5px 5px;
-  background: rgba(235, 0, 69, 0.25);
-  border: 0px solid rgba(235, 0, 69, 0.25);
+  background: rgba(253,73,92, 0.25);
+  border: 0px solid rgba(253,73,92, 0.25);
   display: block;
   transition: all 0.6s ease-in-out;
   cursor: pointer;
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: rgba(235, 0, 69, 0.25);
+  background-color: rgba(253,73,92, 0.25);
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #1B1B1B;
+  background-color: #fff;
   width: 25px;
 }
 
@@ -668,11 +679,11 @@ a:hover {
 }
 
 .intro-single .breadcrumb .breadcrumb-item:before {
-  color: rgba(235, 0, 69, 0.25);
+  color: rgba(253,73,92, 0.25);
 }
 
 .intro-single .breadcrumb .breadcrumb-item.active {
-  color: rgba(235, 0, 69, 0.25);
+  color: rgba(253,73,92, 0.25);
 }
 
 .intro-single .breadcrumb a {
@@ -701,7 +712,7 @@ a:hover {
 }
 
 .skill-mf .progress {
-  background-color: rgba(235, 0, 69, 0.25);
+  background-color: rgba(253,73,92, 0.25);
   margin: .5rem 0 1.2rem 0;
   border-radius: 0;
   height: .7rem;
@@ -727,7 +738,7 @@ a:hover {
   transition: all 500ms ease;
   color: #fff;
   background-color: #eb0045;
-  box-shadow: 0 0 0 10px rgba(235, 0, 69, 0.25);
+  box-shadow: 0 0 0 10px rgba(253,73,92, 0.25);
 }
 
 .service-box .service-ico {
@@ -768,7 +779,7 @@ a:hover {
   height: 60px;
   width: 60px;
   line-height: 1.8;
-  box-shadow: 0 0 0 10px rgba(235, 0, 69, 0.25);
+  box-shadow: 0 0 0 10px rgba(253,73,92, 0.25);
 }
 
 .counter-num .counter {
@@ -862,6 +873,13 @@ a:hover {
   font-size: 1.4rem;
 }
 
+.author-title {
+  text-transform: none;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: normal;
+}
+
 .testimonial-box .comit {
   font-size: 2rem;
   color: #eb0045;
@@ -874,196 +892,6 @@ a:hover {
   line-height: 1.6;
 }
 
-/*======================================
-//--//-->   BLOG
-======================================*/
-
-.card-blog .card-body {
-  position: relative;
-}
-
-.card-blog .card-category-box {
-  position: absolute;
-  text-align: center;
-  top: -16px;
-  left: 15px;
-  right: 15px;
-  line-height: 25px;
-  overflow: hidden;
-}
-
-.card-blog .card-category {
-  display: inline-block;
-  color: #fff;
-  padding: 0 15px 5px;
-  overflow: hidden;
-  background-color: #eb0045;
-  border-radius: 4px;
-}
-
-.card-blog .card-category .category {
-  color: #fff;
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: .7rem;
-  letter-spacing: .1px;
-  margin-bottom: 0;
-}
-
-.card-blog .card-title {
-  font-size: 1.3rem;
-  margin-top: .6rem;
-}
-
-.card-blog .card-description {
-  color: #1d1934;
-}
-
-.card-blog .post-author {
-  display: inline-block;
-}
-
-.card-blog .post-date {
-  color: #1d1934;
-  display: inline-block;
-  float: right;
-}
-
-/*======================================
-//--//-->   BLOG-SINGLE
-======================================*/
-
-.post-box,
-.form-comments,
-.box-comments,
-.widget-sidebar {
-  padding: 2rem;
-  background-color: #fff;
-  margin-bottom: 3rem;
-}
-
-.blog-wrapper .article-title {
-  font-size: 1.5rem;
-}
-
-.blog-wrapper .post-meta {
-  margin: 1rem 0;
-}
-
-.blog-wrapper .post-meta ul {
-  border-left: 4px solid #eb0045;
-  margin-top: 1rem;
-}
-
-.blog-wrapper .post-meta ul li {
-  display: inline-block;
-  margin-left: 15px;
-}
-
-.blog-wrapper .post-meta ul a {
-  color: #eb0045;
-}
-
-.blog-wrapper .post-meta ul span {
-  color: #1d1934;
-}
-
-.blog-wrapper .blockquote {
-  border-left: 4px solid #eb0045;
-  padding: 18px;
-  font-style: italic;
-}
-
-/*------/ Comments /------*/
-
-.box-comments .list-comments li {
-  padding-bottom: 40px;
-}
-
-.box-comments .list-comments .comment-avatar {
-  display: table-cell;
-  vertical-align: top;
-}
-
-.box-comments .list-comments .comment-avatar img {
-  width: 80px;
-  height: 80px;
-}
-
-.box-comments .list-comments .comment-author {
-  font-size: 1.3rem;
-}
-
-.box-comments .list-comments .comment-details {
-  display: table-cell;
-  vertical-align: top;
-  padding-left: 25px;
-}
-
-.box-comments .list-comments a {
-  color: #eb0045;
-}
-
-.box-comments .list-comments span {
-  color: #1d1934;
-  font-style: italic;
-}
-
-.box-comments .comment-children {
-  margin-left: 40px;
-}
-
-/*------/ Sidebar /------*/
-
-.widget-sidebar .sidebar-title {
-  font-size: 1.6rem;
-  font-weight: 600;
-  border-left: 5px solid #eb0045;
-  padding-left: 15px;
-  text-transform: uppercase;
-  margin-bottom: 1.5rem;
-}
-
-.widget-sidebar .list-sidebar li {
-  position: relative;
-  padding: 6px 0 6px 24px;
-}
-
-.widget-sidebar .list-sidebar li:before {
-  position: absolute;
-  content: "";
-  width: 10px;
-  height: 1px;
-  left: 0;
-  background-color: #eb0045;
-  top: 20px;
-}
-
-.sidebar-search input {
-  background-color: #fff;
-  border-radius: 0;
-  transition: all 0.5s ease-in-out;
-}
-
-.sidebar-search .btn-search {
-  background-color: #eb0045;
-  border-color: #eb0045;
-  border-radius: 0;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.widget-tags ul li {
-  display: inline-block;
-  background-color: #eb0045;
-  padding: .2rem .6rem;
-  margin-bottom: .5rem;
-  border-radius: 15px;
-}
-
-.widget-tags ul li a {
-  color: #fff;
-}
 
 /*======================================
 //--//-->   CONTACT
@@ -1170,7 +998,7 @@ footer .credits a {
 .button-a {
   background-color: #eb0045;
   color: #fff;
-  border-color: rgba(235, 0, 69, 0.25);
+  border-color: rgba(253,73,92, 0.25);
 }
 
 .button-big {
